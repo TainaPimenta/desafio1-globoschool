@@ -1,14 +1,26 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 	"strings"
 )
 
 func main() {
-	fmt.Println("Por gentileza, entre com o seu nome:")
-	var name string
-	fmt.Scanln(&name)
-	fmt.Printf("Oiê, eu sou o(a), %s! Vamos nessa!\n", name)
-	name = strings.TrimSpace(name)
+
+	reader := bufio.NewReader(os.Stdin)
+	for {
+
+		fmt.Fprint(os.Stdout, "Por gentileza, entre com o seu nome:")
+		name, err := reader.ReadString('\n')
+		if err != nil {
+			fmt.Fprintln(os.Stderr, err)
+		}
+
+		name = strings.TrimSpace(name)
+		fmt.Printf("Oiê, eu sou o(a), %s! Vamos nessa!\n", name)
+
+	}
+
 }
