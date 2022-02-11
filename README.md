@@ -6,7 +6,7 @@
   
 </h1>
 
-<h1>O Projeto</>
+<h1>O Projeto</h1>
 Primeiro desafio criando GO, VScode, docker e git;
 O projeto é feito em Go, que é uma linguagem de programação de código aberto.
  
