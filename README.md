@@ -14,9 +14,11 @@ O projeto é feito em Go, que é uma linguagem de programação de código abert
  <h1>Como executar</h1> 
 Podemos executá-lo de maneira bem simples:
 
-No seu terminal digite o comando go run main.go;
-Aparecerá uma mensagem para que você digite o seu nome e depois de digitado o seu nome irá junto a uma mensagem;
-Digite algum nome e verá ele ser execultado em seu terminal.
+#No seu terminal digite o comando go run main.go;
+
+#Aparecerá uma mensagem para que você digite o seu nome e depois de digitado o seu nome irá junto a uma mensagem;
+
+#Digite algum nome e verá ele ser execultado em seu terminal.
 
 
 <h1>Dockerfile</h1>
