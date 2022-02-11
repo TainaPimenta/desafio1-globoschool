@@ -7,8 +7,12 @@
 </h1>
 
 <h1>O Projeto</h1>
-Primeiro desafio criando GO, VScode, docker e git;
-O projeto é feito em Go, que é uma linguagem de programação de código aberto.
+#Primeiro desafio criando GO, VScode, docker e git;
+
+#O projeto é feito em Go, que é uma linguagem de programação de código aberto.
+
+ <h4 align="center" > 
+ <img src="https://cdn.dribbble.com/users/1792477/screenshots/6816387/ezgif.com-resize__3__still_2x.gif?compress=1&resize=400x300" width="180">
  
   
  <h1>Como executar</h1> 
@@ -33,5 +37,4 @@ Você também poderá executar através do dockerfile:
 #Criando um binário
 -docker run -it --name projeto-go-cont --rm -v $PWD:/app:Z -w /app nome da imagem ./bin/cmd 
 
- <h4 align="center" > 
- <img src="https://cdn.dribbble.com/users/1792477/screenshots/6816387/ezgif.com-resize__3__still_2x.gif?compress=1&resize=400x300" width="180">
+
